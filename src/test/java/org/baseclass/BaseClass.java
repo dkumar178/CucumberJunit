@@ -95,8 +95,8 @@ public class BaseClass {
 	}
 
 	public static String currenturl() {
-		String url = driver.getCurrentUrl();
-		return url;
+		String URL = driver.getCurrentUrl();
+		return URL;
 
 	}
 
