@@ -100,11 +100,14 @@ public class BaseClass {
 
 	}
 	public static String currenturl2() {
-		String URL = driver.getCurrentUrl();
-		return URL;
 
+		String url = driver.getCurrentUrl();
+		return url;
 	}
 	public static void toclick(WebElement element) {
+		element.click();
+	}
+	public static void toclick2(WebElement element) {
 		element.click();
 	}
 
