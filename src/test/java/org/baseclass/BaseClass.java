@@ -95,16 +95,15 @@ public class BaseClass {
 	}
 
 	public static String currenturl() {
-		String url = driver.getCurrentUrl();
-		return url;
+		String URL = driver.getCurrentUrl();
+		return URL;
 
 	}
 	public static String currenturl2() {
+
 		String url = driver.getCurrentUrl();
 		return url;
-
 	}
-
 	public static void toclick(WebElement element) {
 		element.click();
 	}
