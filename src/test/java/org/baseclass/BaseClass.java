@@ -103,6 +103,9 @@ public class BaseClass {
 	public static void toclick(WebElement element) {
 		element.click();
 	}
+	public static void toclick2(WebElement element) {
+		element.click();
+	}
 
 	public static void doubleclick(WebElement element) {
 		a.doubleClick(element).perform();
