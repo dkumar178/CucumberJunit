@@ -99,7 +99,11 @@ public class BaseClass {
 		return URL;
 
 	}
+	public static String currenturl2() {
+		String URL = driver.getCurrentUrl();
+		return URL;
 
+	}
 	public static void toclick(WebElement element) {
 		element.click();
 	}
